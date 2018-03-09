@@ -14,11 +14,11 @@
 * #### use pip install and following library name
 ```pip install```
     
-* dj-database-url [docs](https://github.com/kennethreitz/dj-database-url){:target="_blank"}
-* django-heroku [docs](https://github.com/heroku/django-heroku){:target="_blank"}
-* gunicorn [docs](http://gunicorn.org){:target="_blank"}
-* whitenoise [docs](http://whitenoise.evans.io/en/stable/){:target="_blank"}
-* pipenv [docs](https://github.com/pypa/pipenv){:target="_blank"}
+* dj-database-url [docs](https://github.com/kennethreitz/dj-database-url)
+* django-heroku [docs](https://github.com/heroku/django-heroku)
+* gunicorn [docs](http://gunicorn.org)
+* whitenoise [docs](http://whitenoise.evans.io/en/stable/)
+* pipenv [docs](https://github.com/pypa/pipenv)
 
 * ##### Add following lines to settings.py(last line)
 
