@@ -11,14 +11,14 @@
 * ##### It will create a new heroku app that has a random name(btw you can change it :)
 
 
-* #### use pip install plus following library name
+* #### use pip install and following library name
 ```pip install```
     
-* dj-database-url [docs]()
-* django-heroku [docs]()
-* gunicorn [docs]()
-* whitenoise [docs]()
-* pipenv [docs]()
+* dj-database-url [docs](https://github.com/kennethreitz/dj-database-url)
+* django-heroku [docs](https://github.com/heroku/django-heroku)
+* gunicorn [docs](http://gunicorn.org)
+* whitenoise [docs](http://whitenoise.evans.io/en/stable/)
+* pipenv [docs](https://github.com/pypa/pipenv)
 
 * ##### Add following lines to settings.py(last line)
 
@@ -28,9 +28,9 @@ django_heroku.settings(locals())
 ```
 * ##### create Procfile(no- file extension. only Procfile). open and write following line
 ```
- web: gunicorn applicationname.wsgi --log-file - 
+ web: gunicorn application_name.wsgi --log-file - 
 ```
-(application-name is folder name which has wsgi file)
+* ##### (application_name is folder name which has wsgi file)
 
 * ### if collectstatic error while pushing heroku, you can use following command
 ```
