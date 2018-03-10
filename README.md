@@ -20,6 +20,11 @@
 * whitenoise [docs](http://whitenoise.evans.io/en/stable/)
 * pipenv [docs](https://github.com/pypa/pipenv)
 
+
+* #### run following command in project_root(project_root is file that has manage.py) after pipenv installed
+```pipenv install```
+
+
 * ##### Add following lines to settings.py(last line)
 
 ```
